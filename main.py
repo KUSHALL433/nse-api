@@ -36,7 +36,7 @@ def get_volume_gainers():
         return {"status": "success", "data": cached_data, "source": "cache"}
 
     try:
-        url = "https://trendlyne.com/stock-screeners/volume-based/high-volume-stocks/top-gainers/today/index/NIFTY500/nifty-500/"
+        url = "https://trendlyne.com/stock-screeners/volume-based/high-volume-stocks/top-gainers/today/"
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
                           "AppleWebKit/537.36 (KHTML, like Gecko) "
